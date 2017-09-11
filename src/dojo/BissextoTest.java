@@ -7,8 +7,9 @@ import org.junit.Test;
 public class BissextoTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void test1600EhPrimo() {
+		boolean resposta = Bissexto.definePrimo(1600);
+		assertEquals(true, resposta);
 	}
 
 }
