@@ -13,8 +13,8 @@ public class Bissexto {
 				}
 			}else {
 				resposta = true;
-			}
-		}else {
+			} 
+		}else { 
 			resposta = false; 
 		}
 		return resposta;
